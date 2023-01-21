@@ -6,7 +6,7 @@ package org.example;
  */
 public class App {
     public static void main( String[] args ) {
-        System.out.println( "Hello World from module-2!" );
+        System.out.println( "Hello World from the runner!" );
         System.out.println(new ModuleTwo().getOne());
     }
 }

@@ -7,10 +7,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>module-2</artifactId>
+    <artifactId>runner</artifactId>
     <packaging>jar</packaging>
 
-    <name>module-2</name>
+    <name>runner</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -22,8 +22,9 @@
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>module-1</artifactId>
+            <artifactId>module-2</artifactId>
             <version>0.0.1</version>
         </dependency>
     </dependencies>
 </project>
+

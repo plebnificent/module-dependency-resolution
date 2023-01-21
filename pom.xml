@@ -3,16 +3,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
+  <name>module-dependency-resolution</name>
+  <url>http://maven.apache.org</url>
   <artifactId>module-dependency-resolution</artifactId>
   <version>0.0.1</version>
   <modules>
     <module>module-1</module>
     <module>module-2</module>
+    <module>runner</module>
   </modules>
   <packaging>pom</packaging>
-
-  <name>module-dependency-resolution</name>
-  <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
